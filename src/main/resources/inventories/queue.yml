@@ -1,0 +1,41 @@
+QUEUE:
+  QUEUES_INVENTORY:
+    TITLE: "&eQueues List"
+    ROWS: 3
+    FILL_VOID_SLOTS: true
+    UNRANKED:
+      SLOT: 11
+      MATERIAL: IRON_SWORD
+      DATA: 0
+      GLOW: true
+      NAME: "&eUnRanked"
+      LORE:
+        - ""
+        - "&fPlayers: &a{players}"
+        - ""
+    RANKED:
+      SLOT: 15
+      MATERIAL: DIAMOND_SWORD
+      DATA: 0
+      GLOW: true
+      NAME: "&eRanked"
+      LORE:
+        - ""
+        - "&fPlayers: &a{players}"
+        - ""
+  UNRANKED_INVENTORY:
+    TITLE: "&b&oSelect a Kit (Unranked)"
+    NAME_COLOR: "GREEN"
+    LORE: # {bars}, {in-fight}, {in-queue} and {kit}
+      - "{bars}"
+      - "&7&oIn Fighting: &r{in-fight}"
+      - "&7&oIn Queueing: &r{in-queue}"
+      - "{bars}"
+  RANKED_INVENTORY:
+    TITLE: "&b&oSelect a Kit (Ranked)"
+    NAME_COLOR: "RED"
+    LORE: # {bars}, {in-fight}, {in-queue} and {kit}
+      - "{bars}"
+      - "&7&oIn Fighting: &r{in-fight}"
+      - "&7&oIn Queueing: &r{in-queue}"
+      - "{bars}"

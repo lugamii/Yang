@@ -1,0 +1,6 @@
+main: me.tulio.yang.Yang
+name: Yang
+version: 2.3.8-SNAPSHOT
+authors: [Arjona]
+depend:
+  - HolographicDisplays

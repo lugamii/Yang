@@ -1,0 +1,78 @@
+FAILED_LOAD_PROFILE: "&cFailed to load your profile. Try again later."
+MOTD:
+  - "                      &aPractice Network"
+  - "                   &9Innovation is coming"
+DISCORD: "discord.pandacommunity.org/development"
+STORE: "pandacommunity.tebex.io"
+TEAMSPEAK: "ts.pandacommunity.us"
+TWITTER: "@PandaPlugins"
+WEBSITE: "pandacommunity.org"
+TABLIST:
+  HEADER: # {color}, {player}, {rank}, {ping}, {clan} and {tps}
+    - "&2&lPandaCommunity Network"
+    - "&aTPS: &f{tps}"
+  FOOTER: # {color}, {player}, {rank}, {ping}, {clan} and {tps}
+    - "&7Hi: {color}{player}"
+    - "&aPing: &f{ping}"
+    - "&aClan: &f{clan}"
+ELO:
+  VIEW_FORMAT: " &7➤ &a{kit} &f{elo}"
+  VIEW_YOUR:
+    - "{bars}"
+    - " &a&lElo"
+    - ""
+    - "{format}"
+    - "{bars}"
+  VIEW_OTHER:
+    - "{bars}"
+    - " &a&lElo {color}{player}"
+    - ""
+    - "{format}"
+    - "{bars}"
+DUEL:
+  SELECT:
+    ROUNDS_MENU:
+      TITLE: "&a&lSelect Rounds"
+      INCREASE_ROUNDS_TITLE: "&aIncrease Rounds &7(+1)"
+      DECREASE_ROUNDS_TITLE: "&aDecrease Rounds &7(-1)"
+      DUEL_INFORMATION:
+        LORE_FORMAT:
+          - ""
+          - "&aCurrent Rounds&7: &b{rounds}"
+          - "&aArena&7: &b{arena}"
+          - "&aKit&7: &b{kit}"
+          - "&aRival&7: &b{rival}"
+      CONFIRM_BUTTON:
+        NAME: "&aConfirm"
+        MATERIAL: "DIAMOND_BLOCK"
+        DATA: 0
+        LORE:
+          - "&7Right Click to send duel request"
+    ARENA_MENU:
+      TITLE: "&2&lSelect an arena"
+      MATERIAL: "PAPER"
+      NAME: "&a{name}"
+      RANDOM_MATERIAL: "NETHER_STAR"
+      RANDOM_NAME: "&bRandom Arena"
+    KIT_MENU:
+      TITLE: "&b&oSelect a kit"
+      NAME: "&a{name}"
+MATCH:
+  BRIDGE_SYMBOL: "✘"
+PARTY:
+  SPLIT:
+    NAME: "&e{name}"
+    LORE:
+      - "&e{name}"
+      - "{bars}"
+      - "&7&oThe party is divided into two"
+      - "&7&oTeams and they fight"
+      - "{bars}"
+  FFA:
+    NAME: "&e{name}"
+    LORE:
+      - "&e{name}"
+      - "{bars}"
+      - "&7&oA fight all against all"
+      - "&7&oAnd the last one to stay alive wins"
+      - "{bars}"

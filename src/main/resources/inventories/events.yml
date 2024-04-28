@@ -1,0 +1,72 @@
+EVENTS:
+  HOST_DESCRIPTION:
+    NO_PERMISSION:
+      - ''
+      - ' &cYou cannot host this event.'
+      - ' &cPurchase a rank upgrade on our store.'
+    WITH_PERMISSION:
+      - ''
+      - ' &aYou can host this event.'
+      - ' &aMaximum Slots&7: &e{slots}'
+  SUMO:
+    DISPLAYNAME: "&6Sumo"
+    ICON: FEATHER
+    DESCRIPTION:
+      - '{bars}'
+      - ' &7Compete by knocking your'
+      - ' &7opponent off of the platform.'
+      - '{context}'
+      - '{bars}'
+    LOBBY_LOCATION: "null"
+    ALLOWED_MAPS: []
+  SPLEEF:
+    DISPLAYNAME: "&6Spleef"
+    ICON: DIAMOND_SPADE
+    DESCRIPTION:
+      - '{bars}'
+      - ' &7Compete by knocking all'
+      - ' &7opponents off of the platform.'
+      - '{context}'
+      - '{bars}'
+    LOBBY_LOCATION: "null"
+    ALLOWED_MAPS: []
+  TNTRUN:
+    DISPLAYNAME: "&6TNTRun"
+    ICON: TNT
+    DESCRIPTION:
+      - '{bars}'
+      - ' &7Compete by knocking all'
+      - ' &7opponents off of the platform.'
+      - '{context}'
+      - '{bars}'
+    LOBBY_LOCATION: "null"
+    ALLOWED_MAPS: []
+  TNTTAG:
+    DISPLAYNAME: "&6TNTTag"
+    ICON: NAME_TAG
+    DESCRIPTION:
+      - '{bars}'
+      - ' &7Compete not to be the'
+      - ' &7last user with the Bomb.'
+      - '{context}'
+      - '{bars}'
+    MATCH-SECONDS: 60
+    LOBBY_LOCATION: "null"
+    ALLOWED_MAPS: []
+  GULAG:
+    DISPLAYNAME: "&6Gulag"
+    ICON: IRON_FENCE
+    DESCRIPTION:
+      - '{bars}'
+      - ' &7Compete to be last on'
+      - ' &7the 1v1 platform.'
+      - '{context}'
+      - '{bars}'
+    LOBBY_LOCATION: "null"
+    ALLOWED_MAPS: []
+EVENT_MAPS: {}
+DEFAULT_HOST_SLOTS: 20
+HOST_SLOTS:
+  1:
+    PERMISSION: "yang.ranks.gold"
+    SLOTS: 64

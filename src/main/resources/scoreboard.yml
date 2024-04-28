@@ -1,0 +1,337 @@
+TITLE_TASK: 0.3
+TITLE:
+  - "&2&lPanda"
+  - "&2&lPanda P"
+  - "&2&lPanda Pr"
+  - "&2&lPanda Pra"
+  - "&2&lPanda Prac"
+  - "&2&lPanda Pract"
+  - "&2&lPanda Practi"
+  - "&2&lPanda Practic"
+  - "&2&lPanda Practice"
+  - "&2&lPanda Practic"
+  - "&2&lPanda Practi"
+  - "&2&lPanda Pract"
+  - "&2&lPanda Prac"
+  - "&2&lPanda Pra"
+  - "&2&lPanda Pra"
+  - "&2&lPanda Pr"
+  - "&2&lPanda P"
+FOOTER_ENABLED: true
+FOOTER_TASK: 0.5
+FOOTER:
+  - "&o&7p"
+  - "&o&7pa"
+  - "&o&7pan"
+  - "&o&7pand"
+  - "&o&7panda"
+  - "&o&7pandac"
+  - "&o&7pandaco"
+  - "&o&7pandacom"
+  - "&o&7pandacomm"
+  - "&o&7pandacommu"
+  - "&o&7pandacommun"
+  - "&o&7pandacommuni"
+  - "&o&7pandacommunit"
+  - "&o&7pandacommunity"
+  - "&o&7pandacommunity."
+  - "&o&7pandacommunity.o"
+  - "&o&7pandacommunity.or"
+  - "&o&7pandacommunity.org"
+BARS_ENABLED: true
+BARS_FORMAT: "&7&m----------------------"
+# Section of suggestions for you
+#
+BOARD:
+  PARTY:
+    - ""
+    - "&2&lParty Information"
+    - "&aHost: &7{hoster}"
+    - "&aPlayers: &7{players}"
+  CLAN:
+    - ""
+    - "&aClan&7: &f{color}{clan}"
+    - " &aOnline&7: &7{size}"
+  FOLLOWING:
+    - ""
+    - "&aFollowing&7: &f{color}{player}"
+  TOURNAMENT:
+    IN_FIGHT:
+      - "&aRound&7: &f#{round}"
+    END:
+      - "&2&lWinner: {color}{winner}"
+    LINES:
+      - ""
+      - "&6&l{mode} Tournament"
+      - "&aKit&7: &f{kit}"
+      - "&aTeams&7: &f{size}&7/&f{limit}"
+      - "&aState&7: {state}"
+      - "{in-fight}"
+      - "{end}"
+  LOBBY:
+    - "&7%localtime_time%"
+    - ""
+    - "&aOnline&7: &f{online}"
+    - "&aIn Fights&7: &f{in-fights}"
+    - "&aIn Queues&7: &f{in-queue}"
+    - "{party}"
+    - "{clan}"
+    - "{following}"
+    - "{tournament}"
+    - "{footer}"
+  QUEUE:
+    RANKED:
+      - "&aELO Range: &7{min-range} -> {max-range}"
+    LINES:
+      - "&7%localtime_time%"
+      - ""
+      - "&aOnline&7: &f{online}"
+      - "&aIn Fights&7: &f{in-fights}"
+      - "&aIn Queues&7: &f{in-queue}"
+      - ""
+      - "&aQueue&7: &f{queue}"
+      - "&7Time Waiting: &f{elapsed}"
+      - "{ranked}"
+      - "{footer}"
+  STAFFMODE:
+    LOBBY:
+      - "&2&lStaffMode"
+      - " &7* &aPlayers&7: &f{players} &7({staffs})"
+      - " &7* &aIn Fight&7: &f{in-fight}"
+      - " &7* &aTPS&7: &f{tps}"
+    SPECTATING:
+      - "&2&lStaffMode"
+      - " &7* &aPlayers&7: &f{players} &7({staffs})"
+      - " &7* &aIn Fight&7: &f{in-fight}"
+      - " &7* &aTPS&7: &f{tps}"
+      - ""
+      - "&2&lSpectator"
+      - " &7* &aPlayers&7: &f{match-players}"
+      - " &7* &aDuration&7: &f{match-duration}"
+      - " &7* &aState&7: &f{match-state}"
+      - " &7* &aRanked&7: &f{match-ranked}"
+      - ""
+  MATCH:
+    ABILITIES:
+      - "{ability}&7: &f{cooldown}"
+    1V1:
+      BOXING_MODE:
+        - "&aHits: &2({hits})"
+        - " &aYou: &f{your-hits}"
+        - " &aThem: &f{opponent-hits}"
+        - " &aCombo: &2{combo}"
+        - ""
+        - "&aYour Ping: &f{player-ping}"
+        - "&aTheir Ping: &f{opponent-ping}"
+      HCF: # Abilities are added automatically
+        BARD_ENERGY:
+          - "&aEnergy&7: &f{energy}"
+        LINES:
+          - "&2&lMatch"
+          - " &fRival&7: {opponent-color}{opponent}"
+          - " &fDuration&7: &c{duration}"
+          - " &fPing&7: &a{player-ping}ms &7| &c{opponent-ping}ms"
+          - ""
+          - "&fClass&7: &6{class}"
+          - "{bard-energy}"
+      HCF_TRAP: # Abilities are added automatically
+        - "&2&lMatch"
+        - " &fRival&7: {opponent-color}{opponent}"
+        - " &fDuration&7: &c{duration}"
+        - ""
+        - " &fPing&7: &a{player-ping}ms &7| &c{opponent-ping}ms"
+      BRIDGE:
+        GOAL: "●"
+        LINES:
+          - ""
+          - "&aRival&7: {opponent-color}{opponent}"
+          - "&aDuration&7: &c{duration}"
+          - ""
+          - "&8[&9B&8] &9{bGoal}"
+          - "&8[&cR&8] &c{rGoal}"
+          - ""
+          - "&eKills&7: &f{kills}"
+      PARKOUR:
+        - "&2&lParkour"
+        - ""
+        - "&a&l{player} &7({player-ping})"
+        - "&fCheckpoints: &a{player-checkpoints}"
+        - ""
+        - "&c&l{rival} &7({rival-ping})"
+        - "&fCheckpoints: &a{rival-checkpoints}"
+        - ""
+        - "&fTime Elapsed: &2{duration}"
+      DEFAULT:
+        - "&2&lMatch"
+        - " &aRival&7: {opponent-color}{opponent}"
+        - " &aDuration&7: &c{duration}"
+        - ""
+        - " &aPing&7: &a{player-ping}ms &7｜ &c{opponent-ping}ms"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fRival&7: {opponent-color}{opponent}"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lMatch"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."
+    MASS_FIGHT:
+      BOXING_MODE:
+        - "&2&lMatch"
+        - " &fRivals: {rivals}"
+        - " &fDuration: &c{duration}"
+        - ""
+        - "&2&lHits: &a({hits})"
+        - " &aTeam Hits: &f{team-hits}"
+        - " &cEnemys Hits: &f{rival-hits}"
+      HCF: # Abilities are added automatically
+        BARD_ENERGY:
+          - "&aEnergy&7: &f{energy}"
+        LINES:
+          - "&2&lMatch"
+          - " &fRivals: {rivals}"
+          - " &fDuration: &c{duration}"
+          - ""
+          - " &fClass: &6{class}"
+          - "{bard-energy}"
+      HCF_TRAP: # Abilities are added automatically
+        - "&2&lMatch"
+        - " &fRivals: {rivals}"
+        - " &fDuration: &c{duration}"
+      PARKOUR:
+        - "&2&lParkour"
+        - ""
+        - "&a&l{player} &7({player-ping})"
+        - "&fCheckpoints: &a{yours-checkpoints}"
+        - ""
+        - "&fRivals: &c{rivals}"
+        - ""
+        - "&fTime: &2{duration}"
+      BRIDGE:
+        GOAL: "●"
+        LINES:
+          - ""
+          - "&aRivals&7: {rivals}"
+          - "&aDuration&7: &c{duration}"
+          - ""
+          - "&8[&9B&8] &9{bGoal}"
+          - "&8[&cR&8] &c{rGoal}"
+          - ""
+          - "&eKills&7: &f{kills}"
+      DEFAULT:
+        - "&2&lMatch"
+        - " &fRivals: {rivals-alive}/{rivals}"
+        - " &fYours: {yours-alive}/{yours}"
+        - " &fDuration: &c{duration}"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lMatch"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."
+    FFA:
+      DEFAULT:
+        - "&2&lMatch"
+        - " &fFighting: {fighting}"
+        - " &fDuration: &c{duration}"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lMatch"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."
+  SPECTATE:
+    1V1:
+      BOXING_MODE:
+        - "&2&lSpectating"
+        - " &a{st-player} &7vs &c{nd-player}"
+        - ""
+        - " &a{st-player}: &a{st-hits}"
+        - " &c{nd-player}: &c{nd-hits}"
+        - ""
+        - " &a{st-ping}ms &7| &c{nd-ping}ms"
+      HCF:
+        LINES:
+          - "&2&lSpectating"
+          - " &fFighting: {fighting}"
+          - " &fDuration: &c{duration}"
+      HCF_TRAP:
+        LINES:
+          - "&2&lSpectating"
+          - " &fFighting: {fighting}"
+          - " &fDuration: &c{duration}"
+      BRIDGE:
+        GOAL: "●"
+        LINES:
+          - "&2&lSpectating"
+          - " &9{st-player} &fvs. &c{nd-player}"
+          - ""
+          - " &8[&9B&8] &9{bGoal}"
+          - " &8[&cR&8] &c{rGoal}"
+          - ""
+          - "  &9{st-ping}ms &7| &c{nd-ping}ms"
+      PARKOUR:
+        - "&2&lParkour"
+        - "&a{st-player} &fvs &c{nd-player}"
+      DEFAULT:
+        - "&2&lSpectating"
+        - " &fFighting: {fighting}"
+        - " &fDuration: &c{duration}"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lRound Ended"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."
+    MASS_FIGHT:
+      BOXING_MODE:
+        - "&2&lSpectating"
+        - " &fFighting: {fighting}"
+        - " &fDuration: &c{duration}"
+      HCF:
+        - "&2&lSpectating"
+        - " &fFighting: {fighting}"
+        - " &fDuration: &c{duration}"
+      HCF_TRAP:
+        - "&2&lSpectating"
+        - " &fFighting: &a{fighting}"
+        - " &fDuration: &c{duration}"
+      BRIDGE:
+        GOAL: "●"
+        LINES:
+          - "&2&lSpectating"
+          - ""
+          - " &8[&9B&8] &9{bGoal}"
+          - " &8[&cR&8] &c{rGoal}"
+      PARKOUR:
+        - "&2&lParkour"
+        - ""
+        - "&fFighting: &c{fighting}"
+        - "&fTime Elapsed: &2{duration}"
+      DEFAULT:
+        - "&2&lSpectating"
+        - " &a{st-player} &fvs. &c{nd-player}"
+        - ""
+        - "  &a{st-ping}ms &7| &c{nd-ping}ms"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lRound Ended"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."
+    FFA:
+      DEFAULT:
+        - "&2&lSpectating"
+        - " &fFighting: {fighting}"
+        - " &fDuration: &c{duration}"
+      MATCH_END:
+        - "&c&lMatch Ended"
+        - " &fDuration&7: &c{duration}"
+      WAITING_FOR_NEXT_ROUND:
+        - "&2&lMatch"
+        - " &fRound: &a{current-round}#"
+        - " &fStatus: &cWaiting..."

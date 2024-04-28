@@ -1,0 +1,201 @@
+HOTBAR_ITEMS:
+  QUEUES_MENU:
+    ENABLED: true
+    SLOT: 1
+    MATERIAL: GOLD_SWORD
+    DURABILITY: 0
+    NAME: '&e&lQueues Menu'
+    LORE: []
+  QUEUE_JOIN_UNRANKED:
+    ENABLED: false
+    SLOT: 1
+    MATERIAL: IRON_SWORD
+    DURABILITY: 0
+    NAME: '&e&lUnranked Queue'
+    LORE: []
+  QUEUE_JOIN_RANKED:
+    ENABLED: false
+    SLOT: 2
+    MATERIAL: DIAMOND_SWORD
+    DURABILITY: 0
+    NAME: '&a&lRanked Queue'
+    LORE: []
+  QUEUE_LEAVE:
+    ENABLED: true
+    SLOT: 1
+    MATERIAL: INK_SACK
+    DURABILITY: 1
+    NAME: '&c&lLeave Queue'
+    LORE: []
+  PARTY_EVENTS:
+    ENABLED: true
+    SLOT: 3
+    MATERIAL: DIAMOND_SWORD
+    DURABILITY: 0
+    NAME: '&a&lParty Events'
+    LORE: []
+  PARTY_CREATE:
+    ENABLED: true
+    SLOT: 5
+    MATERIAL: NAME_TAG
+    DURABILITY: 0
+    NAME: '&9&lCreate Party'
+    LORE: []
+  PARTY_DISBAND:
+    ENABLED: true
+    SLOT: 7
+    MATERIAL: INK_SACK
+    DURABILITY: 1
+    NAME: '&c&lDisband Party'
+    LORE: []
+  PARTY_LEAVE:
+    ENABLED: true
+    SLOT: 6
+    MATERIAL: INK_SACK
+    DURABILITY: 1
+    NAME: '&c&lLeave Party'
+    LORE: []
+  PARTY_INFORMATION:
+    ENABLED: true
+    SLOT: 1
+    MATERIAL: SKULL_ITEM
+    DURABILITY: 3
+    NAME: '&6&lParty Information'
+    LORE: []
+  CLASS_SELECT:
+    ENABLED: true
+    SLOT: 2
+    MATERIAL: DIAMOND
+    DURABILITY: 0
+    NAME: '&6&lHCF Kits'
+    LORE: []
+  OTHER_PARTIES:
+    ENABLED: true
+    SLOT: 5
+    MATERIAL: CHEST
+    DURABILITY: 0
+    NAME: '&9&lOther Parties'
+    LORE: []
+  KIT_EDITOR:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: BOOK
+    DURABILITY: 0
+    NAME: '&d&lKit Editor'
+    LORE: []
+  SPECTATE_STOP:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: INK_SACK
+    DURABILITY: 1
+    NAME: '&c&lStop Spectating'
+    LORE: []
+  VIEW_INVENTORY:
+    ENABLED: true
+    SLOT: 0
+    MATERIAL: BOOK
+    DURABILITY: 0
+    NAME: '&6&lView Inventory'
+    LORE: []
+  EVENT_JOIN:
+    ENABLED: true
+    SLOT: 8
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&b&lJoin Event'
+    LORE: []
+  EVENT_LEAVE:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&b&lLeave Event'
+    LORE: []
+  MAP_SELECTION:
+    ENABLED: true
+    MATERIAL: MAP
+    DURABILITY: 0
+    NAME: '&7» &6&l%MAP% &7«'
+    LORE: []
+  REMATCH_REQUEST:
+    SLOT: 3
+    MATERIAL: BLAZE_POWDER
+    DURABILITY: 0
+    NAME: '&2&lRequest Rematch'
+    LORE: []
+  REMATCH_ACCEPT:
+    ENABLED: true
+    SLOT: 3
+    MATERIAL: DIAMOND
+    DURABILITY: 0
+    NAME: '&b&lAccept Rematch'
+    LORE: []
+  KIT_SELECTION:
+    ENABLED: true
+    MATERIAL: ENCHANTED_BOOK
+    DURABILITY: 0
+    NAME: '&7» &6&l%KIT% &7«'
+    LORE: []
+  EVENT_SELECT:
+    ENABLED: true
+    SLOT: 8
+    MATERIAL: LEASH
+    DURABILITY: 0
+    NAME: '&b&lHost Event'
+    LORE: []
+  LEADERBOARD_MENU:
+    ENABLED: true
+    SLOT: 7
+    MATERIAL: SKULL_ITEM
+    DURABILITY: 0
+    NAME: '&c&lLeaderBoard'
+    LORE: []
+  RANDOM_TELEPORT:
+    ENABLED: true
+    SLOT: 1
+    MATERIAL: BLAZE_ROD
+    DURABILITY: 0
+    NAME: '&bRandom Teleport'
+    LORE: []
+  HIDE_ALL_PLAYERS:
+    ENABLED: true
+    SLOT: 5
+    MATERIAL: NAME_TAG
+    DURABILITY: 0
+    NAME: '&bHide all Players'
+    LORE: []
+  RESET:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: EMERALD
+    DURABILITY: 0
+    NAME: '&bReset'
+    LORE: []
+  FOLLOW:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: REDSTONE
+    DURABILITY: 0
+    NAME: '&bLeave Follow'
+    LORE: []
+  PARKOUR_HIDE_PLAYERS:
+    ENABLED: true
+    SLOT: 1
+    MATERIAL: MINECART
+    DURABILITY: 0
+    NAME: '&2&lHide Players'
+    LORE: []
+  PARKOUR_LAST_CHECKPOINT:
+    ENABLED: true
+    SLOT: 5
+    MATERIAL: ANVIL
+    DURABILITY: 0
+    NAME: '&e&lLast CheckPoint'
+    LORE: []
+  PARKOUR_RESET:
+    ENABLED: true
+    SLOT: 9
+    MATERIAL: BED
+    DURABILITY: 0
+    NAME: '&b&lReset'
+    LORE: []

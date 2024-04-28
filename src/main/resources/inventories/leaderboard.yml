@@ -1,0 +1,43 @@
+DEFAULT_MODE: true # Its necessary restart server to apply changes
+CUSTOM_ITEMS:
+  GLOBAL_STATS:
+    TITLE: "&2Top 10 &aGlobal"
+    POSITIONS:
+      1:
+        - "&3{pos} {color}{name}&7: &r{data}"
+      2:
+        - "&3{pos} {color}{name}&7: &r{data}"
+      3:
+        - "&3{pos} {color}{name}&7: &r{data}"
+        - "{bars}"
+      ANOTHER:
+        - "&2{pos} {color}{name}&7: &r{data}"
+  PERSONAL_STATS:
+    TITLE: "&aStatistics {color}{name}"
+    KITS_FORMAT: "&a{kit}&7: {color}{data}"
+    DESCRIPTION:
+      - "{bars}"
+      - "{kits}"
+      - ""
+      - "&2Global&7: &r{elo}"
+      - "{bars}"
+  KIT:
+    TITLE: "&2Top 10 &a{kit}"
+    POSITIONS:
+      1:
+        - "&2{pos} {color}{name}&7: &r{data}"
+      2:
+        - "&2{pos} {color}{name}&7: &r{data}"
+      3:
+        - "&2{pos} {color}{name}&7: &r{data}"
+        - "{bars}"
+      ANOTHER:
+        - "&2{pos} {color}{name}&7: &r{data}"
+CUSTOM_SECTION:
+  INVENTORY:
+    ROWS: 5
+    FILL_EMPTY_SLOTS: true
+    ITEMS:
+      4: "{global-stats}"
+      6: "{personal-stats}"
+      23: "{kit-nodebuff}"

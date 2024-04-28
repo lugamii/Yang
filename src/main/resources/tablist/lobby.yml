@@ -1,0 +1,245 @@
+TABLIST:
+  LEFT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: '&aIn Queue&7: &f{inqueue}'
+      head: '{dark_red}'
+    '9':
+      text: '&aIn Fight&7: &f{infight}'
+      head: '{dark_red}'
+    '10':
+      text: '&aEvent&7: {event}'
+      head: '{dark_red}'
+    '11':
+      text: ''
+      head: ''
+    '12':
+      text: ''
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&aDiscord'
+      head: '{discord}'
+    '19':
+      text: '&7discord.pandacommunity.org'
+      head: '{light_purple}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  CENTER:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: '&2&lSeason 1'
+      head: ''
+    '3':
+      text: '&7{online}/{slots}'
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: ''
+      head: ''
+    '9':
+      text: ''
+      head: ''
+    '10':
+      text: ''
+      head: ''
+    '11':
+      text: ''
+      head: ''
+    '12':
+      text: ''
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&aTwitter'
+      head: '{twitter}'
+    '19':
+      text: '&b@PandaPlugins'
+      head: '{light_purple}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  RIGHT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: '&aGlobal Elo&7: &f{globalelo}'
+      head: '{dark_green}'
+    '5':
+      text: '&aNoDebuff&7: &f{nodebuff_elo}'
+      head: '{green}'
+    '6':
+      text: '&aDebuff&7: &f{debuff_elo}'
+      head: '{green}'
+    '7':
+      text: '&aBuildUHC&7: &f{builduhc_elo}'
+      head: '{green}'
+    '8':
+      text: '&aSkyWars&7: &f{skywars_elo}'
+      head: '{green}'
+    '9':
+      text: '&aGapple&7: &f{gapple_elo}'
+      head: '{green}'
+    '10':
+      text: '&aHCF&7: &f{hcf_elo}'
+      head: '{green}'
+    '11':
+      text: '&aSumoFly&7: &f{sumofly_elo}'
+      head: '{green}'
+    '12':
+      text: '&aSumo&7: &f{sumo_elo}'
+      head: '{green}'
+    '13':
+      text: '&aCombo&7: &f{combo_elo}'
+      head: '{green}'
+    '14':
+      text: '&aBridge&7: &f{bridge_elo}'
+      head: '{green}'
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&aTeamSpeak'
+      head: '{tulio}'
+    '19':
+      text: '&7ts.pandacommunity.org'
+      head: '{light_purple}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  EXTERNAL-RIGHT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: ''
+      head: ''
+    '9':
+      text: '&2&lYour Information'
+      head: '{player}'
+    '10':
+      text: ' &7➥ &aName&7: &f{name}'
+      head: ''
+    '11':
+      text: ' &7➥ &aRank&7: &f{rank-suffix}'
+      head: ''
+    '12':
+      text: ' &7➥ &aPing&7: &f{ping}'
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&aWebsite'
+      head: '{enzo}'
+    '19':
+      text: '&7www.pandacommunity.org'
+      head: '{light_purple}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
